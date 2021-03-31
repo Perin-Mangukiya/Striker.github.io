@@ -1,0 +1,196 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/wildlife.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 40px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 38%;
+    margin: 25px auto;
+    border: 2px solid aqua;
+    background-color: rgba(131, 124, 124, 0.644);
+    border-radius: 25px;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    border-radius: 15px;
+    
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+
+}
+
+.navbar li a:hover{
+    color: rgb(224, 77, 77);
+}
+
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(223, 130, 130);
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 30px 80px;
+    padding: 10px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    color: rgb(147, 197, 11);
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+}
+.mission{
+    background-image: url("doubleInvertedComma.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 400px 210px;
+    color: rgb(235, 225, 93);
+    display: inline-block;
+    position: absolute;
+    top: 280px;
+    right:50px;
+    left: 800px;
+    border: 2px solid blue;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: rgba(100, 148, 237, 0.301);
+    
+}
+.mission h2,h1{
+    text-align: center;
+}
+.mission h1{
+    color:coral;
+}
+.work{
+    color: rgb(108, 9, 221);
+    background-color: coral;
+    border: 2px solid rgb(156, 25, 25);
+    text-align: center;
+    border-radius: 10px;
+}
+.org{
+    background-color: rgb(223, 180, 72);
+    border-radius: 10px;
+    border: 2px solid rgb(228, 138, 4);
+}
+.org img{
+    padding: 20px 105px;
+    height: 110px;
+    border-radius: 50%;
+    width: 120px;
+    margin-left: 2px;
+}
+.list li{
+    
+    list-style: none;
+    display: inline-block;
+    
+}
+.org h3{
+    padding: 0px 115px;
+}
+.w{
+    padding: 0px 95px;
+}
+.c{
+    padding: 0px 170px;
+}
+.fo{
+    padding: 0px 95px;
+}
+.f{
+    padding: 0px 140px;
+}
+.footer ul li{
+    color:rgb(47, 15, 163);
+    display:inline-block;
+    list-style: none;
+    padding: 15px 115px;
+
+}
+.part{
+    text-align: center;
+}
